@@ -836,7 +836,7 @@ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
     </Style>
 
     <Style TargetType="{x:Type xcdg:ColumnManagerRow}">
-        <Setter Property="AllowSort" Value="False" />
+        <Setter Property="AllowSort" Value="True" />
         <Setter Property="Height" Value="23" />
         <Setter Property="Margin" Value="0" />
         <Setter Property="BorderThickness" Value="0" />
