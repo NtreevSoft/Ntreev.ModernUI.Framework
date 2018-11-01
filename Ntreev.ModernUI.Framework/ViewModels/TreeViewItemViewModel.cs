@@ -81,6 +81,8 @@ namespace Ntreev.ModernUI.Framework.ViewModels
                 return 0;
 
             var vm = obj as TreeViewItemViewModel;
+            if (vm == null) return 0;
+
             if (vm.Order != this.Order)
             {
                 if (vm.Order > this.Order)
